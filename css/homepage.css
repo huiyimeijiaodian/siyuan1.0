@@ -1,0 +1,136 @@
+
+#body_container{
+	/*min-width: 400px;*/
+	/*background: url(../img/school.jpg) no-repeat center center fixed;*/
+	/*background-repeat:no-repeat; 
+	background-attachment:fixed;*/
+}
+.heading{
+	
+}
+
+.content{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*background:rgba(255,255,255,0.6) !important;*/
+	background-color: #eee;
+	min-height: 500px;
+}
+
+#container{
+	width: 80%;
+	margin: 50px auto 0px;
+	padding-bottom: 30px;
+}
+
+.footing{
+	/*height: 100px;*/
+	padding-top: 20px;
+	background-color: #222222;
+}
+
+#font{
+	display: inline;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+#logo {
+	margin-top: -13px;
+	display: inline;
+}
+a:focus{
+    outline: none;
+}
+
+#mytab{
+	font-size: 17px;
+	font-weight: 600;
+	/*padding-left: 10px;*/
+}
+#mytab li{
+	margin-left: 20px;
+	
+}
+
+.img{
+	 width:100%;
+	 height:400px !important;
+	 overflow: hidden;
+}
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+
+#siyuan{
+	/*background-color: white;*/
+	width: 33%;
+	height: 30%;
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	background:rgba(255,255,255,0.3);
+	border-radius: 10px;
+	/*opacity: 0.5;*/
+}
+#siyuan h1{
+	
+	font-family: "楷体";
+	font-size: 80px;
+	opacity: 1;
+	
+}
+
+#siyuan p{
+	opacity: 1;
+}
+
+.widget{
+	padding: 0px 30px;
+}
+.news{
+	/*width: 800px;*/
+	padding-bottom: 15px ;
+	clear: left;
+}
+.alink{
+	width: 48%;
+	display: block;
+	float: left;
+}
+.editor ,.time, .open{
+	/*display: none;*/
+	width: 100px;
+	color:gray;
+	margin-left: 6%;
+	float: left;
+	/*display: block;*/
+}
+
+.link_title{
+	border-bottom: 1px solid #525252;
+	color: white;
+	padding-bottom: 7px;
+	margin-bottom: 15px;
+	
+}
+.friend_link{
+	color: #959595;
+}
+
+.friend_link a{
+	display: block;
+	border-bottom: 1px dashed #464646;
+	padding-bottom: 7px;
+	margin-bottom: 10px;
+	color: #959595;
+	transition: all 0.2s ease 0s;
+}
+.friend_link a:hover{
+	color: white;
+	/*background-color: #464646;*/
+}
+
+
+

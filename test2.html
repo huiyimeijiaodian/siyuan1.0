@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ueditor demo</title>
+</head>
+
+<body>
+    <form action="server.php" method="post">
+        <!-- 加载编辑器的容器 -->
+        <script id="container" name="content" type="text/plain">
+            这里写你的初始化内容
+        </script>
+    </form>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="js/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="js/ueditor.all.min.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var editor = UE.getEditor('container');
+    </script>
+</body>
+
+</html>
+<!--<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript">
+			function showHint(str)
+			{
+				
+			var xmlhttp;
+			if (str.length==0)
+			  { 
+			  document.getElementById("txtHint").innerHTML="";
+			  return;
+			  }
+			if (window.XMLHttpRequest)
+			  {// code for IE7+, Firefox, Chrome, Opera, Safari
+			  xmlhttp=new XMLHttpRequest();
+			  }
+			else
+			  {// code for IE6, IE5
+			  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			  }
+			xmlhttp.onreadystatechange=function()
+			  {
+			  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			    {
+			    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+			    }
+			  }
+			xmlhttp.open("POST","/ajax/gethint.asp?q="+str,true);
+			xmlhttp.send();
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<h3>欢迎登陆华农趣事</h3>
+		<form action=" method="post">
+			<label>用户名:</label>
+			<input type="text" id="txt1" placeholder="用户名" />
+			<!--<label>密码:</label>
+      <input type="password" id="txt2" onkeyup="showHint(this.value)" />-->
+			<!--<button type="submit" onclick="showHint(this.value)">提交</button>
+		</form>
+		<p>反馈信息：<span id="txtHint"></span></p>
+	</body>
+
+</html>-->-->

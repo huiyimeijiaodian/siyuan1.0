@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	</head>
+	<body>
+		<ul class="nav nav-tabs "> 
+			<li class="active">
+				<a href="#home" data-toggle="tab">首页</a>
+			</li>
+			<li>
+				<a href="#profile" data-toggle="tab">介绍</a>
+			</li>
+			<li>
+				<a href="#messages" data-toggle="tab">消息</a>
+			</li>
+			<li>
+				<a href="#settings" data-toggle="tab">设置</a>
+			</li>
+		</ul>
+		<div class="tab-content ">
+			<div class="tab-pane fade in active" id="home">
+				<p>关于我院国家助学贷款申请前的操作说明公示</p>
+				<p>关于我院国家助学贷款申请前的操作说明公示</p>
+				<p>关于我院国家助学贷款申请前的操作说明公示</p>
+			</div>
+			<div class="tab-pane fade" id="profile">
+				<p>我院国家助学贷款申请前的操作说明公示</p>
+				<p>我院国家助学贷款申请前的操作说明公示</p>
+				<p>我院国家助学贷款申请前的操作说明公示</p>
+				<p>我院国家助学贷款申请前的操作说明公示</p>
+			</div>
+			<div class="tab-pane fade" id="messages">
+				<p>关于做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+				<p>关于做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+				<p>关于做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+				<p>关于做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+			</div>
+			<div class="tab-pane fade" id="settings">
+				<p>做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+				<p>做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+				<p>做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+				<p>做好我院2015-2016学年度本科生缓交学费、住宿费工作的通知</p>
+			</div>
+		</div>
+		<div>
+		   <button class="btn">按钮</button>
+		   <div id="element">
+		      <h3>陈嘉兴</h3>
+		      <p>  大家好！我来自广东省揭阳市惠来县龙江镇州周美村</p>
+		   </div>
+		</div>
+		
+		<div id="myCarousel" class="carousel">  <!-- Carousel items -->  
+			<div class="carousel-inner">
+				<div class="active item">
+					<img src="img/10.jpg" alt="..." class="img img-responsive" width="100%">
+				</div>
+				<div class="item">
+					<img src="img/8.jpg" alt="..."  class="img" width="100%">
+				</div>
+				<div class="item">
+					<img src="img/9.png" alt="..." class="img" width="100%">
+				</div>
+			</div>  <!-- Carousel nav -->  
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+		<script>
+		    $(".btn").mouseover(function(){
+		    	$("#element").popover('toggle');
+		    })
+	    	$(function () {   
+	    		$('.tabs a:last').tab('show')
+	    		$('.carousel').carousel({  interval: 2000});
+	    	});
+//	    	$('.carousel').carousel({  interval: 2000})
+		</script>
+	</body>
+</html>
